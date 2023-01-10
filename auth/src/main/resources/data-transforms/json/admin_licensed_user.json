@@ -1,0 +1,14 @@
+{
+  "email": "omaduabumtwo@oasis.mgt.net",
+  "password": "edededed@333312128",
+  "firstName": "John",
+  "lastName": "Doe",
+  "otherName": "",
+  "roles": [
+    "SUPER_ADMIN"
+  ],
+  "companyName": "Oasis",
+  "isEmailVerified": true,
+  "userStatus": "ACTIVE",
+  "portalAccountTypeConstant": "LICENSED_PARTNER"
+}

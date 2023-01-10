@@ -1,0 +1,44 @@
+version: '3'
+services:
+
+  postgres:
+    container_name: vas_postgres
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_DB=cac_vas_db_dev
+      - POSTGRES_USER=cac_vas_user
+      - POSTGRES_PASSWORD=!@m!33vvvin2019tesrV
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    #    volumes:
+    #      - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - vas-network
+
+  vas-backend-one:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "5061:5061"
+    restart: always
+    container_name: vas-backend-one
+    environment:
+      - server.port=5061
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "10"
+    volumes:
+      - /tmp
+    networks:
+      - vas-network
+
+networks:
+  vas-network:
+    external: true

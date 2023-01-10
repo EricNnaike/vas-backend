@@ -1,0 +1,33 @@
+[
+
+  {
+    "name": "User",
+    "roleType": "USER",
+    "privileges": [
+      { "name": "CAN_READ" },
+      { "name": "CAN_CREATE"},
+      { "name": "CAN_UPDATE"},
+      { "name": "CAN_DELETE"}
+    ]
+  },
+  {
+    "name": "Admin",
+    "roleType": "ADMIN",
+    "privileges": [
+      { "name": "CAN_READ" },
+      { "name": "CAN_CREATE"},
+      { "name": "CAN_UPDATE"},
+      { "name": "CAN_DELETE"}
+    ]
+  },
+  {
+    "name": "Super admin",
+    "roleType": "SUPER_ADMIN",
+    "privileges": [
+      { "name": "CAN_READ" },
+      { "name": "CAN_CREATE"},
+      { "name": "CAN_UPDATE"},
+      { "name": "CAN_DELETE"}
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PAY_STACK",
+
+    "isEnabled": false,
+
+    "isLiveActive": false,
+
+    "isVerificationInLine": false,
+
+    "liveVerifyUrl":  "",
+
+    "liveSecret":  "",
+
+    "livePublicKey" :  "",
+
+    "testVerifyUrl" : "https://api.paystack.co/transaction/verify/:reference",
+
+    "testSecret" : "sk_test_2b4925a94938776c64466a284ddf4caeae91ccf8",
+
+    "testPublicKey": "pk_test_3634e1672ccfcd9dac37e02cda9df8a89d636067"
+  },
+  {
+    "name": "FLUTTER_WAVE",
+
+    "isEnabled": false,
+
+    "isLiveActive": false,
+
+    "liveVerifyUrl":  "",
+
+    "isVerificationInLine": true,
+
+    "liveSecret":  "",
+
+    "livePublicKey" :  "",
+
+    "testVerifyUrl" : "https://api.flutterwave.com/v3/transactions/123456/verify",
+
+    "testSecret" : "FLWSECK_TEST-22c6d6cadd834005d36dde03a233784f-X",
+
+    "testPublicKey": "FLWPUBK_TEST-20672505b291a70de3e59b5a23da2228-X"
+  }
+]

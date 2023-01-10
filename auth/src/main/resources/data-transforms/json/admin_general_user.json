@@ -1,0 +1,14 @@
+{
+    "email": "robinhojohn0767@gmail.com",
+    "password": ":)Sjjjj!gfcfgcfg)901358",
+    "firstName": "John",
+    "lastName": "Doe",
+    "otherName": "",
+    "roles": [
+      "SUPER_ADMIN"
+    ],
+    "companyName": "",
+    "isEmailVerified": true,
+    "userStatus": "ACTIVE",
+    "portalAccountTypeConstant": "GENERAL_USER"
+}
